@@ -13,6 +13,9 @@
 
 .navbar{
     background-color: transparent !important;
+    position: fixed !important;
+    z-index: 5;
+    width: 100%;
 }
 
 .navbar .container{
@@ -31,4 +34,64 @@
 
 .nav-link:hover{
     color: var(--primary-color) !important;
+}
+
+/*! CAROUSEL */
+
+.carousel-item{
+    /* height: calc(100vh - 135px); */
+     height: 100vh; 
+}
+
+.carousel-item img{
+    height: 100%;
+    object-fit: cover;
+}
+
+.carousel-caption{
+    bottom: 40% !important;
+}
+
+.carousel-caption .btn{
+    background-color: var(--primary-color);
+    border: none;
+    width: 10rem;
+    color: white;
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+.carousel-caption .btn:first-child {
+    background-color: transparent;
+}
+
+.carousel-caption .btn:first-child:hover {
+    background-color: white;
+    color: black;
+}
+
+.hero{
+    position: relative;
+    z-index: 3;
+}
+
+.black{
+    width: 450px;
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+    
+}
+
+.carousel-indicators{
+    gap: 0.7rem;
+}
+
+.carousel-indicators button{
+    background-color: var(--primary-color) !important;
+    padding: 0.1rem !important;
+    width: 3rem !important;
 }
