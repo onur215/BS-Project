@@ -125,3 +125,13 @@ section#about button{
     background-color: var(--primary-color);
     border: none;
 }
+
+/* PEOPLE */
+
+section#people{
+    background-color: var(--section-color);
+}
+
+section#people .container{
+    background-color: var(--secondary-color);
+}
