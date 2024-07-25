@@ -211,3 +211,8 @@ textarea{
     resize: none;
     height: 100px !important;
 }
+
+.google-map{
+    filter: grayscale(100);
+    border-radius: 20px;
+}
