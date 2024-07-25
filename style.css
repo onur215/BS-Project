@@ -184,6 +184,30 @@ section#menu .menu-header{
 
 /*  CONTACT  */
 
+
 section#contact{
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(188, 108, 37, 1)), url(./img/slider2.jpg) ;
+}
+
+section#contact input,
+section#contact textarea{
+    background-color: inherit;
+}
+
+section#contact input:focus,
+section#contact textarea:focus{
     background-color: var(--primary-color);
+}
+
+label {
+    color: white;
+}
+
+input::placeholder{
+    color: white !important;
+}
+
+textarea{
+    resize: none;
+    height: 100px !important;
 }
