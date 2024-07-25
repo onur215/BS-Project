@@ -161,3 +161,19 @@ section#people i:hover{
 section#people i{
     transition: all 0.5s;
 }
+
+/* OUR MENU */
+
+
+section#menu{
+    background-color: var(--secondary-color);
+}
+
+section#menu button{
+    background-color: var(--secondary-color);
+    margin-right: 1rem;
+}
+
+section#menu .container{
+    background-color: var(--primary-color);
+}
