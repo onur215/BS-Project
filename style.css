@@ -135,3 +135,21 @@ section#people{
 section#people .container{
     background-color: var(--secondary-color);
 }
+
+section#people .card{
+    background-color: var(--primary-color);
+    transition: all 0.5s;
+    overflow: hidden;
+}
+
+section#people .card:hover{
+    transform: scale(1.05);
+}
+
+section#people .card img{
+    transition: all 0.5s;
+}
+
+section#people .card img:hover{
+    transform: scale(1.1);
+}
