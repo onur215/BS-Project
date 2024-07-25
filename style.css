@@ -177,3 +177,7 @@ section#menu button{
 section#menu .container{
     background-color: var(--primary-color);
 }
+
+section#menu .menu-header{
+    color: var(--primary-color);
+}
